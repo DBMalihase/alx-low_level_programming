@@ -1,10 +1,8 @@
 #include <stdio.h>
 /**
- * main -Entry point
- *
- * Description: using the main function 
- *
- * Return: 0 (success)
+ * main - Entry point
+ * Description: using the main function
+ * Return: 0
  */
 int main(void)
 {
