@@ -2,11 +2,11 @@
 /**
  * main -Entry point
  *
- * C-program to print: 
+ * Description: using the main function 
  *
  * "Programming is like building a multilingual puzzle"
  *
- * return : 0 (success)
+ * Return : 0 (success)
  */
 int main(void)
 {
