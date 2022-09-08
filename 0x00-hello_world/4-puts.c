@@ -4,7 +4,6 @@
  *
  * Description: using the main function 
  *
- *
  * Return: 0 (success)
  */
 int main(void)
