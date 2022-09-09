@@ -1,13 +1,13 @@
 #include <stdio.h>
 /**
- * main - Entry point
+ * main - entry point
  * Return: 0
  */
 int main(void)
 {
 	char cba;
 
-	for (cba = 'z'; and cba >= 'a'; cba--)
+	for (cba = 'z'; cba >= 'a'; cba--)
 		putchar(cba);
 	putchar('\n');
 	return (0);
