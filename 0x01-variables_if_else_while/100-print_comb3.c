@@ -9,7 +9,7 @@ int main(void)
 	int numL;
 	int minL = 48;
 
-	for (numL = 48; numL <= 57; num++)
+	for (numL = 48; numL <= 57; numL++)
 	{ for (numR = minL++; numR <= 57; numR++)
 		{ if (numR != numL)
 			{ putchar(numL);
