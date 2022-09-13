@@ -1,7 +1,6 @@
 #include "main.h"
 
 /**
- * main entry
  * print_alphabet_10x - prints alphabet 10 times
  * Return: 0
  */
