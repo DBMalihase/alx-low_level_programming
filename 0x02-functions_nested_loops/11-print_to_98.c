@@ -3,20 +3,34 @@
 #include <stdio.h>
 
 /**
- * print_to_98 - print all natural numbers from input 98, in order separated by a coma followed by a space
+ * print_to_98 - print all natural numbers from input to 98, in order separated by a comma followed by a space
  * @n: the number to begin counting at
  */
 
 void print_to_98(int n)
 {
-	if (n >= 98)
+	int i;
+
+	if (n > 98)
 	{
-			printf("%d, ", n--);
-		printf("%d\n", n);
+		for (i = n; i >= 98; i--)
+		{
+			printf("%d", i);
+			if (i != 98)
+			{
+				printf(", ");
+			}
+		}
+	} else
+	{
+		for (i = n; i <= 98; i++)
+		{
+			printf("%d", i);
+			if (i != 98)
+			{
+				printf(", ");
+			}
+		}
 	}
-	else
-	{ while (n < 98)
-		printf("%d, ", n++);
-		printf("%d\n", n);
-	}
+	printf("\n");
 }
