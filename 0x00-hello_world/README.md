@@ -12,8 +12,6 @@ Introduction to C programming
 
 * Finally the linker takes the object code and other files gone through the same process and create a single executable file
 
-1-Preprocessor:
-
 $CFILE is a variable that contains any code written in C language
 
 gcc -E $CFILE : A file created that only in the preprocessor step
