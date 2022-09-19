@@ -21,7 +21,7 @@ int main(void)
 		if (randnum > 32)
 		{
 			p[j] = randnum;
-			j++
+			j++;
 		}
 	}
 	p[j] = '\0';
