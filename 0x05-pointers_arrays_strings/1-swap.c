@@ -3,7 +3,7 @@
 /**
  * swap_int - Entry point
  * @a: input value
- * b@: input another value
+ * @b: input another value
  * Return: 0
  */
 
