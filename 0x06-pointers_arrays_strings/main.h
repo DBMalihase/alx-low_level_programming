@@ -13,5 +13,6 @@ char *string_toupper(char *);
 char *cap_string(char *s);
 char *leet(char *s);
 int _indexOf(char a);
+void print_numbers(void);
 
 #endif
