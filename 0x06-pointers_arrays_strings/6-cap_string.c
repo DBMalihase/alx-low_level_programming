@@ -9,11 +9,11 @@
 int _indexOf(char a)
 {
 	int i;
-	char capArr[13] = {'\n', '\t', ' ', ',', '.', ';', ',', '!', '?', '(', ')', '{', '}'};
+	char capArr[13] = {'\n', '\t', ' ', '.', ',', ';', ',', '!', '?', '(', ')', '{', '}'};
 
 	for (i = 0; i < 13; i++)
 	{
-		if (capARR[i] == a)
+		if (capArr[i] == a)
 			return (1);
 	}
 	return (0);
