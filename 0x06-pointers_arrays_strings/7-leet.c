@@ -1,3 +1,5 @@
+#include "main.h"
+
 /**
  * leet - translate to leet coding
  * @s: string to convert
