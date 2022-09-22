@@ -1,6 +1,3 @@
-#include "main.h"
-#include <stdio.h>
-
 /**
  * leet - translate to leet coding
  * @s: string to convert
