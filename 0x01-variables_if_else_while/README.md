@@ -1,3 +1,5 @@
-C-programming language, 
+Variables, If, While loops
 
-Variables, if and while loops
+A variable is a name given to a memory location inside our computer where we can store data.
+
+
