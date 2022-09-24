@@ -1,2 +1,15 @@
 #NOTES
 
+include <stdio.h> : is a header file which has the necessary information to include the input/output related functions (e.g. printf)
+
+int main(void) : <return_type> <function_name> (<arguments>)
+
+		says to compiler that it is going to return an integer
+		Return 0 tell os that the program execution is succesful
+		void means no argurment will be passed to main function
+
+printf() used to print both strings and variables while puts() function only print string
+
+string : s sequence of characters terminated with a null character \n or \0
+
+%d takes integer value as signed decimal integer (takes negative and positive values) it assume base 10
