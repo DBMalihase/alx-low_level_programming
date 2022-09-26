@@ -15,7 +15,7 @@ void print_diagsums(int *a, int size)
 
 	for (i = 0; i < size; i++)
 	{
-		diag0 += a[(i * size) + i];
+		diagO += a[(i * size) + i];
 		diagT += a[(size - 1) + ((size - 1) * i)];
 	}
 	printf("%d, %d\n", diagO, diagT);
