@@ -28,7 +28,7 @@ float square_root(int n, float count)
 {
 	if ((count * count) > n)
 	{
-		return(-1);
+		return (-1);
 	}
 	if (n / count != count)
 	{
