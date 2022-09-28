@@ -13,5 +13,7 @@ int is_prime_number(int n);
 int is_palindrome(char *s);
 int _putchar(char c);
 float square_root(int n, float count);
+int palin(char *s, int len, int i);
+int _strlen(char *s);
 
 #endif
