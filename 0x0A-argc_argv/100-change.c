@@ -12,6 +12,15 @@
 
 int main(int argc, char *argv[])
 {
+	/**
+	 * find the minimum number of coins to change the amount of money
+	 * passed by argument
+	 * if 10 passes, a single single dime is needed = 1
+	 * for 100 4 quarters = 4
+	 * 101 4 quarters and one penny = 5
+	 * for 13 a dime 2 2 cent coin and one penny = 3
+	 */
+
 	int change;
 	int coins;
 
