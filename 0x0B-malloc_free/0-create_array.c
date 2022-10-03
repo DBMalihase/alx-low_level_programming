@@ -3,7 +3,7 @@
 #include <stdlib.h>
 
 /**
- * *create_arrary - function that creates an array
+ * create_array - function that creates an array
  * @size: size of int
  * @c: initialize array
  * Return: 0
