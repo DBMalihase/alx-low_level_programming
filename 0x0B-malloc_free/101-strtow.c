@@ -14,7 +14,7 @@ char *get_next_word(char *str);
 char **strtow(char *str)
 {
 	char **words;
-	int wc, wordLen, n, I = 0;
+	int wc, wordLen, n, i = 0;
 
 	if (str == NULL || !*str)
 		return (NULL);
