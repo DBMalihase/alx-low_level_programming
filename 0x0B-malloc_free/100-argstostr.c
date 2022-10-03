@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
-int _stLen(char *);
+int _strLen(char *);
 
 /**
  * argstostr - takes all args and concatenates them into str
