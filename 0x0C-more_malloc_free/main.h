@@ -9,5 +9,6 @@ int *array_range(int min, int max);
 void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size);
 void *set_mem(void *p, unsigned int nmemb, unsigned int size, char ch);
 int *fill_array_range(int *p, int min, int max);
+int main(int argc, char *argv[]);
 
 #endif
