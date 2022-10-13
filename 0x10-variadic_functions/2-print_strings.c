@@ -5,8 +5,8 @@
 
 /**
  * print_strings - prints a string
- * @separator: separator character
- * @n: number of arguments
+ * @separator: separator char
+ * @n: number of args
  */
 
 void print_strings(const char *separator, const unsigned int n, ...)
@@ -19,14 +19,13 @@ void print_strings(const char *separator, const unsigned int n, ...)
 	for (i = 0; i < n; i++)
 	{
 		strArg = va_arg(stringArgs, char *);
-		
-		if (strArg)
-			printf("%s", strArg);
-		else
+
+		if (separator != NULL && i > 0)
+			printf("%s", separator);
+		if (strArg == NULL)
 			printf("(nil)");
-		if (i < n - 1)
-			if (separator)
-				printf("%s", separator);
+		else
+			printf("%s", strArg);
 	}
 	printf("\n");
 	va_end(stringArgs);
