@@ -48,6 +48,7 @@ int print_f(va_list a)
 int print_s(va_list a)
 {
 	char *s;
+
 	s = va_arg(a, char *);
 	if (s == NULL)
 	{
@@ -73,8 +74,8 @@ void print_all(const char * const format, ...)
 	printer ops[] = {
 		{"c", print_c},
 		{"i", print_i},
-		{"f", print_f},
 		{"s", print_s},
+		{"f", print_f},
 		{NULL, NULL}
 	};
 
