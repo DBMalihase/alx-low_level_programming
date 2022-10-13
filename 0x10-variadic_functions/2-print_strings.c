@@ -12,20 +12,35 @@
 void print_strings(const char *separator, const unsigned int n, ...)
 {
 	unsigned int i;
-	va_list stringArgs;
-	char *strArg;
+	va_list strs;
+	char *cur_str;
+	const char *sep_cp;
+	char *nil, *nil_cp;
 
-	va_start(stringArgs, n);
+	nil = "(nil)"
+	va_start(strs, n);
+
 	for (i = 0; i < n; i++)
 	{
-		strArg = va_arg(stringArgs, char *);
-		if (separator != NULL && i > 0)
-			printf("%s", separator);
-		if (strArg == NULL)
-			printf("(nil)");
+		cur_str = va_arg(strs, char *);
+		if (cur_str != NULL)
+		{
+			nil_cp = nil;
+			while (*nil_cp)
+				putchar(*nil_cp++);
+		}
 		else
-			printf("%S", strArg);
+		{
+			while (*cur_str)
+			{
+				putchar(*cur_str++);
+			}
+		}
+		if (separator == NULL || *separator == '\0')
+			continue;
+		sep_cp = separator;
+		while ((*sep_cp) && (i < (n - 1)))
+			putchar(*sep_cp++);
 	}
-	va_end(stringArgs);
-	printf("\n");
+	putchar('\n');
 }
